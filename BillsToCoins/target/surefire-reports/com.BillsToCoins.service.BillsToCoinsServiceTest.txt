@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.BillsToCoins.service.BillsToCoinsServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.097 s <<< FAILURE! - in com.BillsToCoins.service.BillsToCoinsServiceTest
+testMostAmountOfCoinsForBillAmountOne  Time elapsed: 0.094 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <100> but was: <0>
+	at com.BillsToCoins.service.BillsToCoinsServiceTest.testMostAmountOfCoinsForBillAmountOne(BillsToCoinsServiceTest.java:32)
+
