@@ -33,13 +33,17 @@ Please enter a option!
 
 And Rest Interface :
 
-URL: http://localhost:8080/billsToCoins?bill=1
+URL: http://localhost:8080/billsToCoins/LeastAmountOfCoins?bill=1
 
 Request Param : { "bill" : "1" }
 
 Response : {
-    "Quarter": 4,
-    "Nickels": 0,
-    "Dimes": 0,
-    "Pennis": 0
+    {
+    "THIRTYFOUR": 2,
+    "THIRTYTHREE": 0,
+    "QUARTERS": 1,
+    "NICKELS": 1,
+    "PENNIES": 2,
+    "DIMES": 0,
+}
 }
